@@ -26,7 +26,7 @@ public class BlockScript : MonoBehaviour
         {
             GetComponent<BoxCollider>().enabled = false;
             var c = renderer.material.color;
-            renderer.material.color = new UnityEngine.Color(c.r, c.g, c.b, 0.3f);
+            renderer.material.color = new UnityEngine.Color(c.r, c.g, c.b, 0.2f);
         }
     }
 
