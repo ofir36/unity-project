@@ -19,6 +19,8 @@ public class DeathScript : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     { 
         if (other.tag == "Player")
-            Debug.Log("dead trigger");
+        {
+
+        }
     }
 }
