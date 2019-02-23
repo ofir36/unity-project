@@ -18,7 +18,7 @@ public class BulletScript : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("collision");
+        Debug.Log(collision.collider.tag);
         if (collision.collider.tag == "Enemy")
         {
             Debug.Log("true");
