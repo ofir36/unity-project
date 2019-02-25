@@ -10,8 +10,10 @@ public class DeathScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        RespawnPoint = new Vector3(7, 0, 11);
-        Color = Color.Blue;
+        //RespawnPoint = new Vector3(7, 0, 11);
+        //Color = Color.Blue;
+        RespawnPoint = new Vector3(-70, 10, 30);
+        Color = Color.Red;
     }
 
     // Update is called once per frame
