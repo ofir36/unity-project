@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CheckpointScript : MonoBehaviour
 {
+    public AudioClip AudioClip;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,8 @@ public class CheckpointScript : MonoBehaviour
         {
             other.GetComponent<DeathScript>().RespawnPoint = transform.position;
             other.GetComponent<DeathScript>().Color = ColorScript.ActiveColor;
+            other.GetComponent<AudioSource>().clip = AudioClip;
+            other.GetComponent<AudioSource>().Play();
         }
     }
 }

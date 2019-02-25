@@ -41,6 +41,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Score: 50
+  AudioClip: {fileID: 8300000, guid: 2613a3fbafb5cf644a831a05965208b9, type: 3}
 --- !u!1001 &1003249744741732554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50,7 +51,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1517422845108830, guid: f3eb35d92e3c24479b38c9ea4d2ad6fc, type: 3}
       propertyPath: m_Name
-      value: gem_08
+      value: Diamond
       objectReference: {fileID: 0}
     - target: {fileID: 4580336515618940, guid: f3eb35d92e3c24479b38c9ea4d2ad6fc, type: 3}
       propertyPath: m_LocalPosition.x

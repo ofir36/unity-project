@@ -26,6 +26,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d3d948600f187e4aaa2a7ff45046f47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AudioClip: {fileID: 8300000, guid: b2dbcbf93eb1edc4aa9579833df4f484, type: 3}
 --- !u!1001 &4762630216707502229
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35,7 +36,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 28723f10c2a8e094a9351e892f5271b8, type: 3}
       propertyPath: m_Name
-      value: Drone
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 28723f10c2a8e094a9351e892f5271b8, type: 3}
       propertyPath: m_TagString

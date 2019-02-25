@@ -18,10 +18,8 @@ public class BulletScript : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(collision.collider.tag);
         if (collision.collider.tag == "Enemy")
         {
-            Debug.Log("true");
             StartCoroutine(collision.collider.GetComponent<ExplodeScript>().SplitMesh(true));
         }
     }

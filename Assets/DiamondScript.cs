@@ -5,6 +5,7 @@ using UnityEngine;
 public class DiamondScript : MonoBehaviour
 {
     public int Score;
+    public AudioClip AudioClip;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,8 @@ public class DiamondScript : MonoBehaviour
     void OnTriggerEnter(Collider collider)
     {
         collider.GetComponent<ScoreScript>().AddScore(Score);
+        collider.GetComponent<AudioSource>().clip = AudioClip;
+        collider.GetComponent<AudioSource>().Play();
         Destroy(gameObject);
     }
 }
