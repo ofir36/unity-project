@@ -29,7 +29,7 @@ PrefabInstance:
     - target: {fileID: 9198989737536423984, guid: 0c75cc619e9df4e9abe9a1c581702025,
         type: 3}
       propertyPath: m_Name
-      value: BluePlatform (4)
+      value: BlueElevator
       objectReference: {fileID: 0}
     - target: {fileID: 9198989737536423948, guid: 0c75cc619e9df4e9abe9a1c581702025,
         type: 3}

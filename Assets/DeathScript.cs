@@ -12,7 +12,7 @@ public class DeathScript : MonoBehaviour
     {
         //RespawnPoint = new Vector3(7, 0, 11);
         //Color = Color.Blue;
-        RespawnPoint = new Vector3(-70, 10, 30);
+        RespawnPoint = new Vector3(-9, 10, 36);
         Color = Color.Red;
     }
 
