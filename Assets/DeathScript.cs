@@ -10,10 +10,7 @@ public class DeathScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //RespawnPoint = new Vector3(7, 0, 11);
-        //Color = Color.Blue;
-        RespawnPoint = new Vector3(-9, 10, 36);
-        Color = Color.Red;
+
     }
 
     // Update is called once per frame
@@ -29,6 +26,15 @@ public class DeathScript : MonoBehaviour
             Death();
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Enemy")
+        {
+            Death();
+        }
+    }
+
 
     void OnCollisionEnter(Collision collision)
     {

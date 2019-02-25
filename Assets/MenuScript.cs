@@ -37,4 +37,9 @@ using UnityEngine.UI;
         { // "Yes" button in our Quit menu
             Application.Quit();
         }
+
+    public void BackToMenu()
+    { //this function will be used on our Play button
+        SceneManager.LoadScene(0); // Application.LoadLevel(1); "1" is the second scene in our game
     }
+}

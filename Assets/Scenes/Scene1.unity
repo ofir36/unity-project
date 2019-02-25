@@ -3780,8 +3780,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9334d43fb0a1b403d86e78a38674d334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RespawnPoint: {x: 0, y: 0, z: 0}
-  Color: 0
+  RespawnPoint: {x: 7, y: 0, z: 10}
+  Color: 1
 --- !u!1001 &1669378533
 PrefabInstance:
   m_ObjectHideFlags: 0

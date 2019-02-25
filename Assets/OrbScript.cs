@@ -24,4 +24,10 @@ public class OrbScript : MonoBehaviour
             ColorScript.ChangeColor(color);
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+            ColorScript.ChangeColor(color);
+    }
+
 }
