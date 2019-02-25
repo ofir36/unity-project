@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class DeathScript : MonoBehaviour
 {
+    public Vector3 RespawnPoint;
+    public Color Color;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        RespawnPoint = new Vector3(7, 0, 11);
+        Color = Color.Blue;
     }
 
     // Update is called once per frame
@@ -18,9 +22,24 @@ public class DeathScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     { 
-        if (other.tag == "Player")
+        if (other.tag == "Enemy")
         {
-
+            Death();
         }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.tag == "Enemy")
+        {
+            Death();
+        }
+    }
+
+
+    void Death()
+    {
+        transform.position = RespawnPoint;
+        ColorScript.ChangeColor(Color);
     }
 }
