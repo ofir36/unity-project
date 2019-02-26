@@ -132,7 +132,7 @@ PrefabInstance:
     - target: {fileID: 3052980692382803750, guid: 48adc66e960adcf4c9ea8ba371bd1a40,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.36
+      value: -1.81
       objectReference: {fileID: 0}
     - target: {fileID: 3052980692382803750, guid: 48adc66e960adcf4c9ea8ba371bd1a40,
         type: 3}
@@ -542,7 +542,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906574094}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 58.36, y: 0.45, z: 0.13220112}
+  m_LocalPosition: {x: 58.36, y: -1.28, z: 0.13220112}
   m_LocalScale: {x: 7.225, y: 0.690625, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -883,7 +883,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232851732}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -926,8 +926,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08f91df3bd212f429df17f53ce2f364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MaxSpeed: 10
-  m_JumpForce: 800
+  m_MaxSpeed: 8
+  m_JumpForce: 600
   m_CrouchSpeed: 0.25
   m_AirControl: 1
   m_WhatIsGround:
@@ -1073,10 +1073,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.003628917, y: -0.07076383}
+  m_Offset: {x: 0.01817716, y: -0.07076383}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1087,7 +1087,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.38067997, y: 1.088316}
+  m_Size: {x: 0.40977645, y: 1.088316}
   m_EdgeRadius: 0
 --- !u!1001 &1326823923
 PrefabInstance:
@@ -1109,7 +1109,7 @@ PrefabInstance:
     - target: {fileID: 3052980692382803750, guid: 48adc66e960adcf4c9ea8ba371bd1a40,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.6832457
+      value: 1.502
       objectReference: {fileID: 0}
     - target: {fileID: 3052980692382803750, guid: 48adc66e960adcf4c9ea8ba371bd1a40,
         type: 3}
@@ -1155,6 +1155,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112012969289856847, guid: 48adc66e960adcf4c9ea8ba371bd1a40,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48adc66e960adcf4c9ea8ba371bd1a40, type: 3}
@@ -1565,7 +1570,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1723777395}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 69.15, y: 0.45, z: 0.13220112}
+  m_LocalPosition: {x: 69.15, y: -0.1, z: 0.13220112}
   m_LocalScale: {x: 7.225, y: 0.690625, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

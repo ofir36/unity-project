@@ -726,7 +726,7 @@ PrefabInstance:
     - target: {fileID: 1007688771990325430, guid: 9605fe95e5926ad4da454b068dc61e69,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.042
+      value: 0.71
       objectReference: {fileID: 0}
     - target: {fileID: 1007688771990325430, guid: 9605fe95e5926ad4da454b068dc61e69,
         type: 3}
@@ -3165,11 +3165,11 @@ RectTransform:
   m_Father: {fileID: 175520095}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -542, y: 393}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 144, y: -28}
   m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 1}
 --- !u!114 &1329327986
 MonoBehaviour:
   m_ObjectHideFlags: 0
